@@ -4,8 +4,6 @@
 
 <h1 style="color:#d05723">Headings</h1>
 
-<br>
-
 ```markdown
 # Heading 1 
 
@@ -23,6 +21,9 @@
 ### Heading 3
 #### Heading 4
 ##### Heading 5
+
+<br>
+
 
 <h1 style="color:#d05723">Emphasis</h1>
 
@@ -70,6 +71,7 @@ ___
 <h1 style="color:#d05723">Blockquote</h1>
 > This is a Blockquote
 
+<br>
 <br>
 
 <h1 style="color:#d05723">Links</h1>
@@ -119,6 +121,8 @@ Orderred List
     1. Nested OL 1
     1. Nested OL 2
 
+<br>
+
 <h1 style="color:#d05723">Inline Code Block</h1>
 
 ```markdown
@@ -126,6 +130,8 @@ Orderred List
 ```
 
 `<p>This is Inline Code Block</p>`
+
+<br>
 
 <h1 style="color:#d05723">Image</h1>
 
@@ -135,6 +141,7 @@ Orderred List
 
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
+<br>
 
 <h1 style="color:#d05723">Github Code Blocks Examples</h1>
 
