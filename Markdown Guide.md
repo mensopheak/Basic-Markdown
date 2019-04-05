@@ -14,99 +14,141 @@
 <h1 style="color:#d05723">Headings</h1>
 
 <br>
-\# Heading 1 
 
-# Heading 1
-
-<br>
-\#\# Heading 2
+```markdown
+# Heading 1 
 
 ## Heading 2
 
-<br>
-\#\#\# Heading 3
-
 ### Heading 3
-
-<br>
-\#\#\#\# Heading 4
 
 #### Heading 4
 
-<br>
-\#\#\#\#\# Heading 5
+##### Heading 5
+``` 
 
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
 ##### Heading 5
 
-<br/>
-<br/>
+<h1 style="color:#d05723">Emphasis</h1>
 
-<h1 style="color:#d05723">Text Styles</h1>
-\*This is Italic\*
-
+```markdown
 *This is Italic*
 
-<br>
-\_This is Italic\_
-
-_This is Italic_
-
-<br>
-\*\*This is Strong\*\*
+_Or this is Italic_
 
 **This is Strong**
 
-<br>
-\_\_This is Strong\_\_
-
 __This is Strong__
-
-<br>
-\~\~This is StrikeThrough\~\~
 
 ~~This is StrikeThrough~~
 
-<br>
 \*Star Still Show\*
+```
+*This is Italic*
+
+_Or this is Italic_
+
+**This is Strong**
+
+__This is Strong__
+
+~~This is StrikeThrough~~
 
 \*Star Still Show\*
+
+<br>
 
 <!-- Horizontal Rule -->
+<h1 style="color:#d05723">Horizontal Rules</h1>
 
+```markdown
+---
+
+___
+```
 ---
 
 ___
 
+<br>
+
+<h1 style="color:#d05723">Blockquote</h1>
 > This is a Blockquote
+
+<br>
+
+<h1 style="color:#d05723">Links</h1>
+
+```markdown
+[Facebook](http://facebook.com "Facebook")
+
+[Google](http://google.com "Google")
+```
 
 [Facebook](http://facebook.com "Facebook")
 
 [Google](http://google.com "Google")
 
-<!-- Unordered List -->
-* Item 1
-* Item 2
-* Item 3
-    * Nested Item 1
-    * Nested Item 2
+<br>
 
-<!-- Ordered List -->
-1. Item 1
-1. Item 2
-1. Item 3
-    1. Nested Item 1
-    1. Nested Item 2
 
-<!-- Inline Code Block -->
+<h1 style="color:#d05723">Lists</h1>
+
+```markdown
+Unorderred List
+* UL 1
+* UL 2
+* UL 3
+    * Nested UL 1
+    * Nested UL 2
+```
+
+* UL 1
+* UL 2
+* UL 3
+    * Nested UL 1
+    * Nested UL 2
+
+```markdown
+Orderred List
+1. OL 1
+1. OL 2
+1. OL 3
+    1. Nested OL 1
+    1. Nested OL 2
+```
+
+1. OL 1
+1. OL 2
+1. OL 3
+    1. Nested OL 1
+    1. Nested OL 2
+
+<h1 style="color:#d05723">Inline Code Block</h1>
+
+```markdown
 `<p>This is Inline Code Block</p>`
+```
+
+`<p>This is Inline Code Block</p>`
+
+<h1 style="color:#d05723">Image</h1>
+
+```markdown
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+```
 
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
 <!-- Github Markdown -->
 ```bash
-    brew install npm
+$ brew install npm
 
-    npm install react-native
+$ npm install react-native
 ```
 
 ```python
@@ -119,3 +161,4 @@ function add(num1, num2, num3){
     return num1 + num2 + num3
 }
 ```
+
