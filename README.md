@@ -1,15 +1,6 @@
-### Markdown
+# Markdown
 
-- Headings
-- Lists
-- Emphasis
-- Links
-- Blocks of Code
-- Images
-- Blockquotes
-- Horizontal Rules
 
----
 
 <h1 style="color:#d05723">Headings</h1>
 
@@ -144,16 +135,42 @@ Orderred List
 
 ![Markdown Logo](https://markdown-here.com/img/icon256.png)
 
-<!-- Github Markdown -->
+
+<h1 style="color:#d05723">Github Code Blocks Examples</h1>
+
+```markdown
+    ```bash
+    $ brew install npm
+
+    $ npm install react-native
+    ```
+```
+
 ```bash
 $ brew install npm
 
 $ npm install react-native
 ```
 
+```markdown
+    ```python
+    def greeting(message):
+        print(message)
+    ```
+```
+
 ```python
 def greeting(message):
     print(message)
+```
+
+```markdown
+
+    ```javascript
+    function add(num1, num2, num3){
+        return num1 + num2 + num3
+    }
+    ```
 ```
 
 ```javascript
