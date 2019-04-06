@@ -1,5 +1,7 @@
 # Markdown
 
+Markdown is a lightweight markup language with plain text formatting syntax, using for creating documentation, or blog post ...etc.
+<br>
 
 
 <h1 style="color:#d05723">Headings</h1>
