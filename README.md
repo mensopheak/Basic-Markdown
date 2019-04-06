@@ -143,7 +143,7 @@ Orderred List
 
 <br>
 
-<h1 style="color:#d05723">Github Code Blocks Examples</h1>
+<h1 style="color:#d05723">Code Blocks Examples</h1>
 
 ```markdown
     ```bash
@@ -175,14 +175,42 @@ def greeting(message):
 
     ```javascript
     function add(num1, num2, num3){
-        return num1 + num2 + num3
+        return num1 + num2 + num3;
     }
     ```
 ```
 
 ```javascript
 function add(num1, num2, num3){
-    return num1 + num2 + num3
+    return num1 + num2 + num3;
 }
 ```
+
+<br>
+<h1 style="color:#d05723">Tables</h1>
+
+```markdown
+| Name | Email |
+| ------- | ----------------|
+| Sopheak Men | sopheak@gmail.com |
+| Chan Mey | mey@gmail.com |
+```
+
+| Name | Email |
+| ------- | ----------------|
+| Sopheak Men | sopheak@gmail.com |
+| Chan Mey | mey@gmail.com |
+
+<br>
+<h1 style="color:#d05723">Task Lists</h1>
+
+```markdown
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
+```
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
+
 
