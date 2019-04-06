@@ -156,9 +156,9 @@ Orderred List
 ```
 
 ```bash
-$ brew install npm
+    $ brew install npm
 
-$ npm install react-native
+    $ npm install react-native
 ```
 
 ```markdown
@@ -169,8 +169,8 @@ $ npm install react-native
 ```
 
 ```python
-def greeting(message):
-    print(message)
+    def greeting(message):
+        print(message)
 ```
 
 ```markdown
@@ -183,9 +183,9 @@ def greeting(message):
 ```
 
 ```javascript
-function add(num1, num2, num3){
-    return num1 + num2 + num3;
-}
+    function add(num1, num2, num3){
+        return num1 + num2 + num3;
+    }
 ```
 
 <br>
